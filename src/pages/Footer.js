@@ -61,17 +61,17 @@ export default function Footer() {
                 </div>
 
                 <p class="copy-right-grids text-li text-center my-sm-4 my-4">© 2019 Men spa. All Rights Reserved | Design by
-                    <a href="http://w3layouts.com/"> W3layouts </a>
+                    <a href="https://github.com/mostafiz9900"> CodeCanDo </a>
                 </p>
                 <div class="w3ls-footer text-center mt-4">
                     <ul class="list-unstyled w3ls-icons">
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/mostafiz9900/">
 							<span class="fa fa-facebook-f"></span>
 						</a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://twitter.com/mostafiz9900">
 							<span class="fa fa-twitter"></span>
 						</a>
                         </li>

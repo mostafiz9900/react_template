@@ -1,16 +1,19 @@
-import React from 'react'
+import React from 'react';
+import {
+	Link
+  } from "react-router-dom";
 
 export default function Header() {
     return (
-        <div>
-            <header>
+        <div >
+            <header >
 	<div class="container">
 		<div class="header d-lg-flex justify-content-between align-items-center">
 			<div class="header-agile">
 				<h1>
-					<a class="navbar-brand logo" href="index.html">
+					<Link class="navbar-brand logo" to="/">
 						<span class="fa fa-scissors" aria-hidden="true" ></span> Men spa	<span class="fa fa-user-secret" aria-hidden="true" ></span>
-					</a>
+					</Link>
 				</h1>
 			</div>
 			<div class="nav_w3ls">
@@ -18,19 +21,19 @@ export default function Header() {
 					<label for="drop" class="toggle mt-lg-0 mt-1"><span class="fa fa-bars" aria-hidden="true"></span></label>
 					<input type="checkbox" id="drop" />
 						<ul class="menu">
-							<li class="mr-lg-3 mr-2 active"><a href="index.html">Home</a></li>
-							<li class="mr-lg-3 mr-2"><a href="about.html">About </a></li>
+							<li class="mr-lg-3 mr-2 active"><Link to="/">Home</Link></li>
+							<li class="mr-lg-3 mr-2"><Link to="/about">About </Link></li>
 							<li class="mr-lg-3 mr-2 p-0">						
 							<label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
 							<a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
 							<input type="checkbox" id="drop-2"/>
 							<ul class="inner-dropdown">
-								<li><a href="services.html">What We Do</a></li>
-								<li><a href="single.html">See more</a></li>
+								<li><Link to="/services">What We Do</Link></li>
+								<li><Link to="/single">Single</Link></li>
 							</ul>
 							</li>
-							<li class="mr-lg-3 mr-2"><a href="gallery.html">Gallery</a></li>
-							<li class="mr-lg-3 mr-2"><a href="contact.html">Contact Us</a></li>
+							<li class="mr-lg-3 mr-2"><Link to="/gallery">Gallery</Link></li>
+							<li class="mr-lg-3 mr-2"><Link to="/contact">Contact Us</Link></li>
 							
 
 						</ul>
